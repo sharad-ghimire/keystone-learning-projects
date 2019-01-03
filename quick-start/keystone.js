@@ -6,8 +6,10 @@ keystone.init({
   'auto update': true,
   auth: true,
   view: 'templates/views',
-  'view engine': '.hbs'
+  'view engine': 'pug'
 });
+
+keystone.set('routes', require('./routes'));
 
 keystone.import('models');
 

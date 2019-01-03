@@ -9,6 +9,7 @@
   "author": "Sharad Ghimire",
   "license": "ISC",
   "dependencies": {
-    "keystone": "^4.0.0"
+    "keystone": "^4.0.0",
+    "pug": "^2.0.3"
   }
 }
