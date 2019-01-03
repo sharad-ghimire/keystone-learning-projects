@@ -1,0 +1,14 @@
+{
+  "name": "quick-start",
+  "version": "1.0.0",
+  "description": "A Setting Up from Scratch Guide from Keystone Documentation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sharad Ghimire",
+  "license": "ISC",
+  "dependencies": {
+    "keystone": "^4.0.0"
+  }
+}
