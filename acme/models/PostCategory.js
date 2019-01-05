@@ -9,7 +9,7 @@ var PostCategory = new keystone.List('PostCategory', {
 	autokey: { from: 'name', path: 'key', unique: true },
 });
 
-PostCategory.add({
+PostCategory.add({ 
 	name: { type: String, required: true },
 });
 
